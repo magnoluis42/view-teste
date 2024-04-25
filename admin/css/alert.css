@@ -1,0 +1,9 @@
+.alert .alert-success{
+    display: none;
+    position: fixed;
+}
+
+.alert .alert-danger{
+    display: none;
+    position: fixed;
+}

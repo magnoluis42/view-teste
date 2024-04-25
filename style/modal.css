@@ -1,0 +1,132 @@
+.modal-cart-products{
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  position: fixed;
+  z-index: 1;
+}
+
+.modal-cart-products .modal-content{
+  border: 1px solid white;
+  width: 95%;
+  max-height: 60%;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  top: 10rem;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.modal-cart-products .modal-content .products{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.modal-cart-products .modal-content img{
+  border-radius: 1rem;
+  width: 8rem;
+  height: 8rem;
+}
+
+.modal-cart-products .modal-content .products .close-btn{
+  max-width: 4rem;
+  max-height: 4rem;
+  cursor: pointer;
+}
+
+.modal-cart-products .finish{
+  background-color: #fff;
+  border-radius: 0 0 1rem 1rem;
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  top: 10rem;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.modal-cart-products .finish button{
+  width: 40%;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+
+.modal-cart {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    bottom: 1rem;
+    right: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #ffc107;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-cart .modal-content {
+  border: none;
+  background: none;
+}
+
+.modal-cart .modal-content .span{
+  width: 70%;
+  position: relative;
+  background-color: red;
+  border-radius: 1rem;
+  bottom: 1rem;
+  left: 3rem;
+  padding: 0 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-cart .modal-content span{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.modal-cart .img{
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 1.5rem;
+}
+
+.modal-cart .img img{
+  width: 3rem;
+  height: 3rem;
+}
+
+
+
+
+  
+  
